@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Enes Fıral - Yazılım Geliştirici</title>
+    <title>Makaleler - Enes Fıral</title>
     <link rel="stylesheet" href="index.css" />
     <link
       rel="stylesheet"
@@ -12,8 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-  
-</head>
+  </head>
   <body>
     <header class="app-header">
       <div class="container header-content">
@@ -21,9 +20,9 @@
         <div class="header-right">
             <nav class="main-nav">
               <ul>
-                <li><a href="index.html" class="active">Ana Sayfa</a></li>
+                <li><a href="index.html">Ana Sayfa</a></li>
                 <li><a href="projeler.html">Projeler</a></li>
-                <li><a href="makaleler.html">Makaleler</a></li>
+                <li><a href="makaleler.html" class="active">Makaleler</a></li>
                 <li><a href="hakkimda.html">Hakkımda</a></li>
                 <li><a href="iletisim.html">İletişim</a></li>
               </ul>
@@ -39,105 +38,36 @@
       </div>
     </header>
 
-    <main>
-      
-      <div class="container">
-        <section class="hero">
-          <h1>Merhaba, Ben <span class="highlight">Enes Firal</span></h1>
-          <p class="subtitle">
-            Yazılım geliştirici, teknoloji tutkunu ve sürekli öğrenmeye açık bir
-            problem çözücüyüm.
+    <div class="container">
+      <main>
+        <section class="page-content">
+          <h1 class="page-title">Makaleler</h1>
+          <p>
+            Yazılım geliştirme, teknoloji ve programlama üzerine deneyimlerimi, öğrendiklerimi ve görüşlerimi paylaştığım makaleler.
           </p>
-          <p class="description">
-            Modern teknolojileri kullanarak kullanıcı odaklı, ölçeklenebilir
-            ve performanslı uygulamalar geliştiriyorum. Kodlama tutkumla
-            birlikte yeni teknolojileri keşfetmeyi ve deneyimlerimi paylaşmayı
-            seviyorum.
-          </p>
-          <div class="hero-buttons">
-            <a href="projeler.html" class="btn btn-primary">
-              Projelerimi İncele <i class="fa-solid fa-arrow-right"></i>
-            </a>
-            <a href="iletisim.html" class="btn btn-secondary">İletişime Geç</a>
-          </div>
-        </section>
-      </div>
 
-      <section class="features">
-        <div class="container">
-          <div class="features-grid">
-            <div class="feature-item">
-              <div class="icon-wrapper">
-                <i class="fa-solid fa-code"></i>
-              </div>
-              <h3>Temiz Kod</h3>
-              <p>
-                Okunabilir, sürdürülebilir ve ölçeklenebilir kod yazmaya
-                odaklanıyorum.
-              </p>
+          <h2 class="section-subtitle">Öne Çıkan Makaleler</h2>
+          
+          <div class="article-card">
+            <div class="article-meta">
+              <span><i class="fa-regular fa-calendar"></i> 15 Ocak 2024</span>
+              <span><i class="fa-regular fa-clock"></i> 8 dk okuma</span>
+              <span><i class="fa-solid fa-tag"></i> Next.js</span>
             </div>
-            <div class="feature-item">
-              <div class="icon-wrapper">
-                <i class="fa-solid fa-globe"></i>
-              </div>
-              <h3>Modern Teknolojiler</h3>
-              <p>
-                React, Next.js, TypeScript Node.js ve diğer güncel teknolojilerle
-                çalışıyorum.
-              </p>
+            <h3>Next.js 14 ile Server Components: Yeni Nesil React Geliştirme</h3>
+            <p>React Server Components nedir, nasıl çalışır ve Next.js 14 ile nasıl kullanırız? Bu makalede Server Components'in avantajlarını ve pratik kullanım örneklerini keşfediyoruz.</p>
+            <div class="article-tags">
+              <span class="article-tag">Next.js</span>
+              <span class="article-tag">React</span>
+              <span class="article-tag">Server Components</span>
+              <span class="article-tag">Performance</span>
             </div>
-            <div class="feature-item">
-              <div class="icon-wrapper">
-                <i class="fa-regular fa-lightbulb"></i>
-              </div>
-              <h3>Sürekli Öğrenme</h3>
-              <p>
-                Yeni teknolojileri öğrenmeyi ve deneyimlerimi paylaşmayı
-                seviyorum.
-              </p>
-            </div>
+            <a href="#" class="article-read-more">Devamını Oku <i class="fa-solid fa-arrow-right"></i></a>
           </div>
-        </div>
-      </section>
 
-      <div class="container">
-        <section class="latest-work">
-          <h2>Son Çalışmalarım</h2>
-          <p>Geliştirdiğim son projeler ve yazdığım makaleler</p>
-          <div class="work-columns">
-            <div class="work-column">
-              <div class="column-header">
-                <h3>Projeler</h3>
-                <a href="projeler.html">Tümünü Gör</a>
-              </div>
-              <div class="card">
-                <h4>E-Ticaret Platform</h4>
-                <p>Next.js ve TypeScript ile geliştirilmiş modern e-ticaret çözümü</p>
-              </div>
-              <div class="card">
-                <h4>Task Management App</h4>
-                <p>React ve Node.js ile geliştirilmiş proje yönetim uygulaması</p>
-              </div>
-            </div>
-            <div class="work-column">
-              <div class="column-header">
-                <h3>Makaleler</h3>
-                <a href="makaleler.html">Tümünü Gör</a>
-              </div>
-              <div class="card">
-                <h4>Next.js 14 ile Server Components</h4>
-                <p>Yeni nesil React Server Components nasıl kullanılır?</p>
-              </div>
-              <div class="card">
-                <h4>TypeScript Best Practices</h4>
-                <p>Daha iyi TypeScript kodu yazmanın yolları</p>
-              </div>
-            </div>
-          </div>
         </section>
-      </div>
-    </main>
-    
+      </main>
+    </div>
 
     <footer class="app-footer">
       <div class="footer-columns">
@@ -211,14 +141,12 @@
           header.classList.remove('scrolled');
         }
       });
-      
+
       // Hamburger menu toggle
       const hamburger = document.querySelector('.hamburger-menu');
       hamburger.addEventListener('click', () => {
         body.classList.toggle('mobile-nav-open');
       });
     </script>
-  <script type="module" src="/index.tsx"></script>
-
-</body>
+  </body>
 </html>

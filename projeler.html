@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Enes Fıral - Yazılım Geliştirici</title>
+    <title>Projeler - Enes Fıral</title>
     <link rel="stylesheet" href="index.css" />
     <link
       rel="stylesheet"
@@ -12,17 +12,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-  
-</head>
+  </head>
   <body>
     <header class="app-header">
       <div class="container header-content">
         <a href="index.html" class="logo">Enes Fıral</a>
-        <div class="header-right">
+         <div class="header-right">
             <nav class="main-nav">
               <ul>
-                <li><a href="index.html" class="active">Ana Sayfa</a></li>
-                <li><a href="projeler.html">Projeler</a></li>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="projeler.html" class="active">Projeler</a></li>
                 <li><a href="makaleler.html">Makaleler</a></li>
                 <li><a href="hakkimda.html">Hakkımda</a></li>
                 <li><a href="iletisim.html">İletişim</a></li>
@@ -39,105 +38,66 @@
       </div>
     </header>
 
-    <main>
-      
-      <div class="container">
-        <section class="hero">
-          <h1>Merhaba, Ben <span class="highlight">Enes Firal</span></h1>
-          <p class="subtitle">
-            Yazılım geliştirici, teknoloji tutkunu ve sürekli öğrenmeye açık bir
-            problem çözücüyüm.
+    <div class="container">
+      <main>
+        <section class="page-content">
+          <h1 class="page-title">Projelerim</h1>
+          <p>
+            Geliştirdiğim yazılım projeleri ve uygulamalar. Her biri farklı teknolojiler kullanılarak geliştirilmiş ve gerçek dünya problemlerine çözüm sunmaya odaklanmış.
           </p>
-          <p class="description">
-            Modern teknolojileri kullanarak kullanıcı odaklı, ölçeklenebilir
-            ve performanslı uygulamalar geliştiriyorum. Kodlama tutkumla
-            birlikte yeni teknolojileri keşfetmeyi ve deneyimlerimi paylaşmayı
-            seviyorum.
-          </p>
-          <div class="hero-buttons">
-            <a href="projeler.html" class="btn btn-primary">
-              Projelerimi İncele <i class="fa-solid fa-arrow-right"></i>
-            </a>
-            <a href="iletisim.html" class="btn btn-secondary">İletişime Geç</a>
-          </div>
-        </section>
-      </div>
 
-      <section class="features">
-        <div class="container">
-          <div class="features-grid">
-            <div class="feature-item">
-              <div class="icon-wrapper">
-                <i class="fa-solid fa-code"></i>
-              </div>
-              <h3>Temiz Kod</h3>
-              <p>
-                Okunabilir, sürdürülebilir ve ölçeklenebilir kod yazmaya
-                odaklanıyorum.
-              </p>
-            </div>
-            <div class="feature-item">
-              <div class="icon-wrapper">
-                <i class="fa-solid fa-globe"></i>
-              </div>
-              <h3>Modern Teknolojiler</h3>
-              <p>
-                React, Next.js, TypeScript Node.js ve diğer güncel teknolojilerle
-                çalışıyorum.
-              </p>
-            </div>
-            <div class="feature-item">
-              <div class="icon-wrapper">
-                <i class="fa-regular fa-lightbulb"></i>
-              </div>
-              <h3>Sürekli Öğrenme</h3>
-              <p>
-                Yeni teknolojileri öğrenmeyi ve deneyimlerimi paylaşmayı
-                seviyorum.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="container">
-        <section class="latest-work">
-          <h2>Son Çalışmalarım</h2>
-          <p>Geliştirdiğim son projeler ve yazdığım makaleler</p>
-          <div class="work-columns">
-            <div class="work-column">
-              <div class="column-header">
-                <h3>Projeler</h3>
-                <a href="projeler.html">Tümünü Gör</a>
-              </div>
-              <div class="card">
-                <h4>E-Ticaret Platform</h4>
-                <p>Next.js ve TypeScript ile geliştirilmiş modern e-ticaret çözümü</p>
-              </div>
-              <div class="card">
-                <h4>Task Management App</h4>
-                <p>React ve Node.js ile geliştirilmiş proje yönetim uygulaması</p>
+          <h2 class="section-subtitle">Öne Çıkan Projeler</h2>
+          <div class="projects-grid">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+              <img src="https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="E-Ticaret Platformu Proje Görüntüsü">
+              <div class="project-card-content">
+                <h3>E-Ticaret Platform</h3>
+                <p>Next.js, TypeScript ve Stripe ile geliştirilmiş tam özellikli e-ticaret uygulaması. Modern UI/UX tasarımı, güvenli ödeme sistemi ve admin paneli içerir.</p>
+                <div class="project-tags">
+                  <span class="project-tag">Next.js</span>
+                  <span class="project-tag">TypeScript</span>
+                  <span class="project-tag">Tailwind CSS</span>
+                  <span class="project-tag">Stripe</span>
+                  <span class="project-tag">PostgreSQL</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Canlı Demo
+                  </a>
+                  <a href="#" class="project-link">
+                    <i class="fa-solid fa-code"></i> Kod
+                  </a>
+                </div>
               </div>
             </div>
-            <div class="work-column">
-              <div class="column-header">
-                <h3>Makaleler</h3>
-                <a href="makaleler.html">Tümünü Gör</a>
-              </div>
-              <div class="card">
-                <h4>Next.js 14 ile Server Components</h4>
-                <p>Yeni nesil React Server Components nasıl kullanılır?</p>
-              </div>
-              <div class="card">
-                <h4>TypeScript Best Practices</h4>
-                <p>Daha iyi TypeScript kodu yazmanın yolları</p>
+            <!-- Project Card 2 -->
+            <div class="project-card">
+              <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Task Management Uygulaması Proje Görüntüsü">
+              <div class="project-card-content">
+                <h3>Task Management App</h3>
+                <p>React ve Node.js ile geliştirilmiş proje yönetim uygulaması. Takım çalışması için optimize edilmiş, real-time güncellemeler ve dosya paylaşımı özellikli.</p>
+                <div class="project-tags">
+                  <span class="project-tag">React</span>
+                  <span class="project-tag">Node.js</span>
+                  <span class="project-tag">Socket.io</span>
+                  <span class="project-tag">MongoDB</span>
+                  <span class="project-tag">Express</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Canlı Demo
+                  </a>
+                  <a href="#" class="project-link">
+                    <i class="fa-solid fa-code"></i> Kod
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </section>
-      </div>
-    </main>
-    
+      </main>
+    </div>
 
     <footer class="app-footer">
       <div class="footer-columns">
@@ -218,7 +178,5 @@
         body.classList.toggle('mobile-nav-open');
       });
     </script>
-  <script type="module" src="/index.tsx"></script>
-
-</body>
+  </body>
 </html>
